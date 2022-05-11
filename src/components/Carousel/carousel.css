@@ -1,0 +1,22 @@
+.slider {
+  background-color: transparent !important ;
+  width: 100%;
+  height: 700px;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .slider {
+    background-color: transparent !important;
+    width: auto;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .slider {
+    background-color: transparent !important;
+    width: auto;
+    height: 300px;
+  }
+}

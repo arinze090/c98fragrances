@@ -1,0 +1,148 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  background-color: #000 !important;
+  box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.25) !important;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  width: 90%;
+  color: #001d4a;
+  height: 90px;
+}
+
+.logo {
+  font-family: "Roboto Mono", monospace;
+  cursor: pointer;
+  color: #001d4a;
+  width: 80px;
+}
+
+.li {
+  font-family: "Roboto Mono", monospace;
+  cursor: pointer;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.li :hover {
+  color: teal;
+}
+
+.lis {
+  font-family: "Roboto Mono", monospace;
+  cursor: pointer;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  align-items: center;
+  color: #001d4a;
+  height: 90px;
+}
+
+.resume {
+  background-color: whitesmoke !important;
+  border-radius: 5px;
+  margin: 10px;
+  justify-content: center;
+  height: 40px;
+  width: 120px;
+  border: 1px solid #001d4a;
+  cursor: pointer;
+}
+
+.resume :hover {
+  background-color: tomato !important;
+  color: teal;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 35px;
+  }
+
+  .navbar {
+    z-index: 0;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links-mobile {
+    display: block;
+    position: absolute;
+    list-style: none;
+    background-color: black !important;
+    left: 30%;
+    top: 15%;
+    transition: all 0.6s ease-out;
+    width: 70%;
+    z-index: 999;
+    height: 85%;
+  }
+
+  .li {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .li :hover {
+    color: turquoise;
+  }
+
+  .btnSection {
+    text-align: center;
+    padding: 22px;
+    width: 90%;
+    transition: all 0.5 ease;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    right: 45px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: black !important;
+    color: whitesmoke;
+  }
+  .mobile-menu-icon ::after {
+    background-color: whitesmoke;
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+  }
+}

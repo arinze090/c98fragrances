@@ -1,3 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* background-color: #000 !important; */
+  /* color: whitesmoke; */
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: black !important;
+  object-fit: contain;
+}
+
 .App {
   text-align: center;
 }
